@@ -31,3 +31,31 @@ To run this project, you need to have Python installed on your system along with
 You can install the required libraries using:
 ```bash
 pip install pandas matplotlib seaborn numpy pygwalker
+```
+
+## Key Insights
+- Range and Price Correlation: Higher vehicle range tends to correlate with higher prices.
+- Efficiency and Price Correlation: More efficient vehicles (lower Wh/km) generally have higher prices.
+- Plug Type Analysis: Type 2 plug types are common in the highest range and costliest vehicles.
+- Top Selling Brands: Tesla, Porsche, Skoda, Nissan, Audi, and Volkswagen lead the market.
+- Popular Car Types: SUVs dominate the electric vehicle market.
+- Segment Analysis: S segment cars (sports cars) are the most expensive.
+
+## Features Considered
+The following features were analyzed in this project:
+
+- Brand: The manufacturer of the vehicle.
+- TopSpeed_KmH: The top speed of the vehicle in kilometers per hour.
+- FastCharge_KmH: The range added per hour of fast charging.
+- PowerTrain: The type of powertrain the vehicle uses.
+- PlugType: The type of plug the vehicle uses for charging.
+- BodyStyle: The body style of the vehicle (e.g., SUV, sedan).
+- Segment: The market segment the vehicle belongs to (e.g., S segment).
+- Seats: The number of seats in the vehicle.
+- PriceEuro: The price of the vehicle in euros.
+- Range_km_binned: The binned range of the vehicle in kilometers.
+- efficiency_WhKm_binned: The binned efficiency of the vehicle in watt-hours per kilometer.
+
+
+## Interactive Dashboard
+- The repository includes an Excel file with the dataset, which was used to build an interactive dashboard. The dashboard provides a user-friendly interface for exploring the data and gaining insights.
